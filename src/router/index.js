@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import DefaultLayout from "../layouts/DefaultLayout.vue";
 
-import Beranda from "../components/Beranda.vue";
+import Home from "../components/Home.vue";
 import About from "../components/About.vue";
 import Timeline from "../components/Timeline.vue";
 import Information from "../components/Information.vue";
@@ -13,7 +13,7 @@ const routes = [
     path: "/",
     component: DefaultLayout,
     children: [
-      { path: "", component: Beranda },
+      { path: "", component: Home },
       { path: "about", component: About },
       { path: "timeline", component: Timeline },
       { path: "information", component: Information },
