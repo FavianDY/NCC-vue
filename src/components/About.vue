@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import "../style/reset.css";
+</script>
 
 <template>
   <div class="tentang-page">

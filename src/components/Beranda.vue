@@ -4,7 +4,9 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import "../style/reset.css";
+</script>
 
 <style scoped>
 .beranda {

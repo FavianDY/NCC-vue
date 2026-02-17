@@ -34,6 +34,7 @@
 </template>
 
 <script setup>
+import "../style/reset.css";
 import { ref } from "vue";
 
 const isOpen = ref(false);
